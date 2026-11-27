@@ -14,13 +14,10 @@ fix and the advisory published together.
 
 ## Versions that get fixes
 
-The latest release and `main`.
+The latest release and `master`.
 
-## What is and is not a vulnerability
+## What to report
 
-The plugin runs a2ltool, which it carries, on files you choose, and writes the A2L you ask
-for. What **is** worth reporting: it running anything other than its own a2ltool, reading or
-writing a file nobody chose, or an A2L it writes that differs from what a2ltool produced.
-
-A problem in a2ltool itself goes to [a2ltool](https://github.com/DanielT/a2ltool); say here
-too if the plugin is what exposes it.
+As for pycangui, and in particular an ELF or A2L that makes the plugin or a2ltool run code, or
+write anywhere but the A2L you chose. A problem in a2ltool itself goes to
+[a2ltool](https://github.com/DanielT/a2ltool); say here too if the plugin is what exposes it.
