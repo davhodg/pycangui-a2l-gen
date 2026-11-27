@@ -8,3 +8,5 @@ dist/
 # What build/build.py makes: cargo's output, and the program it copies into the plugin.
 build/target/
 a2lgen/bin/
+# Working notes, kept local.
+private/
