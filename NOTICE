@@ -1,0 +1,10 @@
+pycangui-a2l-gen
+Copyright 2026 davhodg
+
+This plugin carries a2ltool (https://github.com/DanielT/a2ltool), built from the
+external/a2ltool submodule: Copyright Daniel Thaler, licensed under the MIT License
+or the Apache License 2.0, at your option. Its licence files are placed beside the
+program in the plugin's bin folder (a2ltool-LICENSE-MIT, a2ltool-LICENSE-APACHE).
+
+a2ltool in turn is built from crates published on crates.io under their own licences,
+as listed in external/a2ltool/Cargo.lock.

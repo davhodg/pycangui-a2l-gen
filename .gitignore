@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+dist/
+*.zip
+# What build/build.py makes: cargo's output, and the program it copies into the plugin.
+build/target/
+a2lgen/bin/

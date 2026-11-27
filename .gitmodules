@@ -1,0 +1,3 @@
+[submodule "external/a2ltool"]
+	path = external/a2ltool
+	url = https://github.com/DanielT/a2ltool
