@@ -17,7 +17,10 @@ from .pane import A2lGenView
 API_VERSION = 3
 NAME = "A2L generator"
 VERSION = "0.1"
-DESCRIPTION = "Create an A2L from an ELF, update it after a rebuild, and check it, with a2ltool."
+DESCRIPTION = (
+    "Creates an A2L file from an ECU's ELF, updates it after a rebuild, and checks it, "
+    "with a2ltool."
+)
 
 
 def register(app) -> None:
